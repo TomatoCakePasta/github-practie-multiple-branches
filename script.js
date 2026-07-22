@@ -15,3 +15,9 @@ decreaseButton.addEventListener("click", () => {
     count--;
     updateCount();
 });
+
+// リセット
+resetButton.addEventListener("click", () => {
+    count = 0;
+    updateCount();
+});
